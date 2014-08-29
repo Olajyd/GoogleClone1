@@ -1,0 +1,47 @@
+@media screen and (max-width: 480px) {
+
+	/*************************
+ 	 Adjust Section Elements
+
+	 ************************/
+	 /* float header left*/
+	 .logo img{
+	 	width:150px;
+	 	margin: 0 auto -3%;
+	 }
+
+	 /* float header left*/
+	 #mainHeader li a{
+
+	 	padding: 10px 0 10px 0;
+		display: inline-block;
+		float:left;
+		margin:5px;
+
+	 }
+	  /* reduce header margin*/
+	 #mainHeader{
+	height:20px;
+	width: 100%;
+	margin-bottom:50px;
+	
+	}
+
+	.quickSearch{
+
+		display: inline-block;
+		width: 90%;
+		margin: 0 3px 0 15px;
+
+	}
+
+	.search {
+		width: 82%;
+		margin: 5px auto 10px;
+	}
+
+	section{
+	height:-5%; 
+}
+
+}

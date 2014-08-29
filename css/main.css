@@ -1,0 +1,205 @@
+/*********************************
+		General 
+*********************************/
+/* Static background */
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: darkgray;
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+
+/* General links style */
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* unordered list */
+ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+
+/*********************************
+		Section
+
+*********************************/
+section{
+	height:520px; 
+	width:100%;
+}
+
+/*.logo{
+	width: 40%;
+	margin: auto;
+}  */
+
+/* styling logo */
+.logo img {
+	display: block;
+	width: 270px;
+	margin: 30px auto 0px;
+	padding-bottom: 22px;
+	padding-top: 50px;
+}
+
+/* Search area */
+.search {
+	display: block;
+	width: 44%;
+	height: 23px;
+	margin:auto auto 15px;
+	border-color:0.1px #b2b2b2;
+}
+
+.voiceImg{
+
+}
+
+.quickSearch{
+	display: block;
+	width:20%;
+	margin: auto auto 15px;
+}
+
+input[class="search"]:focus {
+	border-color:0.1px none #4285F4;
+
+}
+
+
+.quicksearch a:hover {
+	box-shadow: 2 2 0.5 #c6c6c6;
+
+}
+
+/* button below search area */
+.searchbut{
+	padding: 5px;
+	border: 1px solid #c6c6c6;
+	background: #f1f1f1;
+	font-size: 12px;
+	font-weight:800;
+	color:black;
+	border-radius: 2px;
+	margin-right: 20px;
+}
+
+
+/*********************************
+		Footer 
+*********************************/
+/* footer container */
+footer{
+	height: 38px;
+	width:100%;
+	background-color: #F2F2F2;
+	padding-bottom: 5px;
+	border-top: 1px solid #E4E4E4;
+	font-size: small;
+	padding-top: 5px;
+	}
+
+/* left footer container */
+#leftFooter{
+	width: 50%;
+	height: inherit;
+	float: left;
+	display:inline-block;
+	
+}
+/* right footer container */
+#rightFooter{
+	width: 50%;
+	height: inherit;
+	float:right;
+	display:inline-block;
+		
+}
+
+/* left footer links */
+#leftFooter li a{
+	padding: 10px 15px 15px 15px;
+	float: left;
+	margin-right: 15px;
+	color: #B0B07B;
+	font-family: Arial, sans-serif;
+	
+}
+/* right footer links */
+#rightFooter li a {
+	padding: 10px 15px 15px 15px;
+	float:right;
+	margin-right: 15px;
+	color: #B0B07B;
+	font-family: Arial, sans-serif;
+}
+
+.group:before, .group:after{
+	content: "";
+	display: table;
+}
+.group:after{
+	clear:both;
+}
+
+
+/*********************************
+		Heading
+
+*********************************/
+header{
+	display: block;
+}
+
+#mainHeader{
+	height:30px;
+	width: 100%;
+	margin-bottom:110px;
+
+}
+
+ /* float header right*/
+#mainHeader li a{
+	padding: 10px 0 15px 0;
+	display: inline-block;
+	float:right;
+	margin:10px;
+	color: #000;
+	font-weight: lighter;
+
+}
+
+/*********************************
+		Sign in button
+
+*********************************/
+span {
+	width: 80px;
+	height: 30px;
+	background: #4386F8;
+	color: #fff;
+	font-style: normal;
+	font-weight:bold;
+	margin-top: 25px;
+	margin-right: 15px;
+	padding:10px 15px;
+	border-radius: 2px;
+	font-size: 1em;
+	
+
+}
+  
+ .butn a{
+	text-decoration: none;
+}
+
+
+
